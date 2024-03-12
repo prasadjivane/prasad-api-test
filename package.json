@@ -1,5 +1,5 @@
 {
-  "name": "test-api",
+  "name": "prasad-api-tester",
   "version": "1.0.0",
   "description": "API testing with real-time reporting",
   "main": "index.js",
