@@ -1,4 +1,4 @@
-# api-tester
+# test-api
 API testing with real-time reporting
 
 ## Installation
@@ -6,7 +6,7 @@ API testing with real-time reporting
 You can install API Tester using npm:
 
 ```bash
-npm install api-tester
+npm install test-api
 ```
 
 ## CLI Usage
@@ -18,7 +18,7 @@ npm test -- --url=https://github.com/prasadjivane  Replace API endpoint
 ## Usage
 
 ```bash
-const ApiTester = require('api-tester');
+const ApiTester = require('test-api');
 
 // Example usage
 const apiUrl = 'https://github.com/prasadjivane'; // Replace API endpoint
