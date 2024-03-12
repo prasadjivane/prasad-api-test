@@ -1,12 +1,12 @@
 {
-  "name": "api-tester",
+  "name": "test-api",
   "version": "1.0.0",
   "description": "API testing with real-time reporting",
   "main": "index.js",
   "scripts": {
     "test": "node apiTester.js"
   },
-  "keywords": ["api testing"],
+  "keywords": ["api test"],
   "author": "Prasad Jivane",
   "license": "ISC",
   "dependencies": {
