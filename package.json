@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node apiTester.js"
   },
-  "keywords": [],
+  "keywords": ["api testing"],
   "author": "Prasad Jivane",
   "license": "ISC",
   "dependencies": {

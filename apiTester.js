@@ -12,7 +12,6 @@ class ApiTester {
       const response = await axios.get(this.apiUrl);
       const endTime = new Date().getTime(); // End time of the API call
       const elapsedTime = endTime - startTime; // Calculate elapsed time
-
       // Display response code and data in the console
       console.log('Response Code:', response.status);
       console.log('Response Data:', response.data);
