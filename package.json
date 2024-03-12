@@ -10,7 +10,7 @@
   "author": "Prasad Jivane",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.23.0",
+    "axios": "^1.6.7",
     "yargs": "^17.7.2"
   }
 }
