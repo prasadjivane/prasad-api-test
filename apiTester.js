@@ -1,6 +1,7 @@
 const axios = require('axios');
 const yargs = require('yargs');
 
+
 class ApiTester {
   constructor(apiUrl) {
     this.apiUrl = apiUrl;
@@ -35,6 +36,7 @@ class ApiTester {
   }
 }
 
+
 // Parse command-line arguments only if not being run as npm test script
 if (!module.parent) {
   const argv = yargs
@@ -51,5 +53,6 @@ if (!module.parent) {
   const apiTester = new ApiTester(argv.url);
   apiTester.testApi();
 }
+
 
 module.exports = ApiTester; // Export ApiTester class for reuse
