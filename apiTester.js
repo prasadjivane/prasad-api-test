@@ -8,17 +8,15 @@ class ApiTester {
   }
 
   async testApi() {
-    const startTime = new Date().getTime(); // Start time of the API call
+    const startTime = new Date().getTime(); // Start time 
     try {
       const response = await axios.get(this.apiUrl);
-      const endTime = new Date().getTime(); // End time of the API call
+      const endTime = new Date().getTime(); // End time
       const elapsedTime = endTime - startTime; // Calculate elapsed time
-      // Display response code and data in the console
+      // To display response code and data in the console
       console.log('Response Code:', response.status);
       console.log('Response Data:', response.data);
       console.log('Time Taken:', elapsedTime, 'milliseconds');
-
-      // You can also add additional logic here to display data in VS Code output or notification
     } catch (error) {
       // Handle errors
       if (error.response) {
@@ -37,7 +35,7 @@ class ApiTester {
 }
 
 
-// Parse command-line arguments only if not being run as npm test script
+// Parse cla only if not being run as npm test script
 if (!module.parent) {
   const argv = yargs
     .options({
