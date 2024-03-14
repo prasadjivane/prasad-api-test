@@ -1,18 +1,35 @@
 const axios = require('axios');
 const yargs = require('yargs');
 
-
 class ApiTester {
   constructor(apiUrl) {
     this.apiUrl = apiUrl;
   }
 
-  async testApi() {
+  async testApi(method = 'GET', data = null) {
     const startTime = new Date().getTime(); // Start time 
     try {
-      const response = await axios.get(this.apiUrl);
+      let response;
+      switch (method.toUpperCase()) {
+        case 'GET':
+          response = await axios.get(this.apiUrl);
+          break;
+        case 'POST':
+          response = await axios.post(this.apiUrl, data);
+          break;
+        case 'PUT':
+          response = await axios.put(this.apiUrl, data);
+          break;
+        case 'DELETE':
+          response = await axios.delete(this.apiUrl);
+          break;
+        default:
+          throw new Error(`Invalid HTTP method: ${method}`);
+      }
+
       const endTime = new Date().getTime(); // End time
       const elapsedTime = endTime - startTime; // Calculate elapsed time
+      
       // To display response code and data in the console
       console.log('Response Code:', response.status);
       console.log('Response Data:', response.data);
@@ -44,13 +61,24 @@ if (!module.parent) {
         demandOption: true,
         type: 'string',
       },
+      'method': {
+        describe: 'HTTP method to use (GET, POST, PUT, DELETE)',
+        demandOption: false,
+        type: 'string',
+        default: 'GET'
+      },
+      'data': {
+        describe: 'Data to send with POST or PUT request',
+        demandOption: false,
+        type: 'string',
+        default: null
+      }
     })
     .help()
     .argv;
 
   const apiTester = new ApiTester(argv.url);
-  apiTester.testApi();
+  apiTester.testApi(argv.method, argv.data);
 }
-
 
 module.exports = ApiTester; // Export ApiTester class for reuse
