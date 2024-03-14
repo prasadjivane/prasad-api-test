@@ -1,4 +1,4 @@
-<img width="679" alt="prasad-api-test" src="https://github.com/prasadjivane/test-now/assets/26869583/66513ed5-3f76-4480-916d-ffcdfbde0c10">
+<img width="679" alt="prasad-api-test" src="https://github.com/prasadjivane/prasad-api-test/assets/26869583/66513ed5-3f76-4480-916d-ffcdfbde0c10">
 
 
 
@@ -32,7 +32,6 @@ npm test -- --url="https://example.com/api" --method="DELETE"
 ```bash
 const ApiTester = require('prasad-api-test');
 
-// 
 const apiUrl = 'https://example.com/api'; // Replace with your API endpoint
 const apiTester = new ApiTester(apiUrl);
 
