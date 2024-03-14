@@ -31,22 +31,22 @@ npm test -- --url="hhttps://example.com/api" --method="DELETE"
 ```bash
 const ApiTester = require('prasad-api-tester');
 
-// Example usage
+// 
 const apiUrl = 'https://example.com/api'; // Replace with your API endpoint
 const apiTester = new ApiTester(apiUrl);
 
-// Example usage for GET request
+// GET request
 apiTester.testApi('GET');
 
-// Example usage for POST request
+// POST request
 const postData = { key: 'value' }; // Replace with your POST data
 apiTester.testApi('POST', postData);
 
-// Example usage for PUT request
+// PUT request
 const putData = { key: 'updated value' }; // Replace with your PUT data
 apiTester.testApi('PUT', putData);
 
-// Example usage for DELETE request
+// DELETE request
 apiTester.testApi('DELETE');
 ```
 
