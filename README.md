@@ -32,7 +32,6 @@ npm test -- --url="https://example.com/api" --method="DELETE"
 ```bash
 const ApiTester = require('prasad-api-test');
 
-// 
 const apiUrl = 'https://example.com/api'; // Replace with your API endpoint
 const apiTester = new ApiTester(apiUrl);
 
