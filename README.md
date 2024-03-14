@@ -1,6 +1,9 @@
+<img width="697" alt="npm-api-tester" src="https://github.com/prasadjivane/test-now/assets/26869583/4fa5cd75-1715-4619-802b-0df3382ec902">
+
+
 # prasad-api-tester
 
-API testing with real-time reporting using prasad-api-tester
+API testing with real-time reporting using prasad-api-tester. CLI tool for testing API in real-time.
 
 ## Installation
 
@@ -15,9 +18,9 @@ npm install prasad-api-tester
 ```bash
 npm test -- --url=hhttps://example.com/api
 
-npm test -- --url="hhttps://example.com/api" --method="POST" --data='{"title":"name","body":"new","userId":1}'
+npm test -- --url="hhttps://example.com/api" --method="POST" --data='{"title": "name", "body": "new", "userId":1}'
 
-npm test -- --url="hhttps://example.com/api" --method="PUT" --data='{"id":1,"title":"updated name","body":"updated body","userId":1}'
+npm test -- --url="hhttps://example.com/api" --method="PUT" --data='{"id":1, "title": "updated name", "body": "updated body", "userId":1}'
 
 npm test -- --url="hhttps://example.com/api" --method="DELETE"
 
@@ -46,3 +49,11 @@ apiTester.testApi('PUT', putData);
 // Example usage for DELETE request
 apiTester.testApi('DELETE');
 ```
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or want to add new features, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the ISC License.
