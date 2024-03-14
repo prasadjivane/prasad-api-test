@@ -1,4 +1,5 @@
-<img width="697" alt="npm-api-tester" src="https://github.com/prasadjivane/test-now/assets/26869583/4fa5cd75-1715-4619-802b-0df3382ec902">
+<img width="679" alt="prasad-api-test" src="https://github.com/prasadjivane/test-now/assets/26869583/66513ed5-3f76-4480-916d-ffcdfbde0c10">
+
 
 
 # prasad-api-test
