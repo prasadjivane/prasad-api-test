@@ -1,6 +1,6 @@
 {
   "name": "prasad-api-test",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "API testing with real-time reporting",
   "main": "index.js",
   "scripts": {
