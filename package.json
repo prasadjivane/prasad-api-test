@@ -16,12 +16,12 @@
   "author": "Prasad Jivane",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prasadjivane/test-now"
+    "url": "https://github.com/prasadjivane/prasad-api-test"
   },
   "bugs": {
-    "url": "https://github.com/prasadjivane/test-now/issues"
+    "url": "https://github.com/prasadjivane/prasad-api-test/issues"
   },
-  "homepage": "https://github.com/prasadjivane/test-now",
+  "homepage": "https://github.com/prasadjivane/prasad-api-test",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.7",
