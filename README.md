@@ -17,13 +17,13 @@ npm install prasad-api-test
 ## CLI Usage Example
 
 ```bash
-npm test -- --url=hhttps://example.com/api
+npm test -- --url=https://example.com/api
 
-npm test -- --url="hhttps://example.com/api" --method="POST" --data='{"title": "name", "body": "new", "userId":1}'
+npm test -- --url="https://example.com/api" --method="POST" --data='{"title": "name", "body": "new", "userId":1}'
 
-npm test -- --url="hhttps://example.com/api" --method="PUT" --data='{"id":1, "title": "updated name", "body": "updated body", "userId":1}'
+npm test -- --url="https://example.com/api" --method="PUT" --data='{"id":1, "title": "updated name", "body": "updated body", "userId":1}'
 
-npm test -- --url="hhttps://example.com/api" --method="DELETE"
+npm test -- --url="https://example.com/api" --method="DELETE"
 
 ```
 
