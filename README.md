@@ -1,16 +1,16 @@
 <img width="697" alt="npm-api-tester" src="https://github.com/prasadjivane/test-now/assets/26869583/4fa5cd75-1715-4619-802b-0df3382ec902">
 
 
-# prasad-api-tester
+# prasad-api-test
 
-API testing with real-time reporting using prasad-api-tester. CLI tool for testing API in real-time.
+API testing with real-time reporting using prasad-api-test. CLI tool for testing API in real-time.
 
 ## Installation
 
 You can install API Tester using npm:
 
 ```bash
-npm install prasad-api-tester
+npm install prasad-api-test
 ```
 
 ## CLI Usage Example
@@ -29,7 +29,7 @@ npm test -- --url="hhttps://example.com/api" --method="DELETE"
 ## Usage
 
 ```bash
-const ApiTester = require('prasad-api-tester');
+const ApiTester = require('prasad-api-test');
 
 // 
 const apiUrl = 'https://example.com/api'; // Replace with your API endpoint
